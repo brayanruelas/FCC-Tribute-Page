@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background: white;
+  text-align: center;
+}
+
+
+.title {
+  text-align: center;
+  text-shadow: 2px 2px 3px grey;
+  padding-top: .5%;
+  padding-bottom: 1.5%;
+}
+
+
+.img-div {
+  text-align: center;
+}
+
+#image {
+  max-width: 50%;
+  height: auto;
+  border: 5px solid black;
+  border-radius: 10%;
+  display: block;
+  margin: auto;
+}
+
+.less-width {
+  width: 50%;
+  display: inline-block;
+}
+
+.album-images {
+  text-align: center;
+  height: 15%;
+  width: 15%;
+  object-fit: cover;
+}
+
+footer {
+  padding-top: 2%;
+}
